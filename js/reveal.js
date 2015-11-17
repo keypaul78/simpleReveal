@@ -1,6 +1,5 @@
 !function(){
 	"use strict";
-
 	var REVEAL = {
 		config : {
 			revealClass : 'reveal',
@@ -10,11 +9,11 @@
 		},
 		setup : function(){
 			REVEAL.config.revealEl = document.querySelectorAll('.' + REVEAL.config.revealClass);
-			window.addEventListener('load', REVEAL.revealOnScroll, false);
-			window.addEventListener('scroll', REVEAL.revealOnScroll, false);
-			window.addEventListener('resize', REVEAL.revealOnScroll, false);
+			window.addEventListener('load', REVEAL.checkReveal, false);
+			window.addEventListener('scroll', REVEAL.checkReveal, false);
+			window.addEventListener('resize', REVEAL.checkReveal, false);
 		},
-		revealOnScroll : function(){
+		checkReveal : function(){
 			REVEAL.config.latestKnownScrollY = window.scrollY;
 			REVEAL.requestTick();
 		},
