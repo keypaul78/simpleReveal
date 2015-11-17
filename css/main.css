@@ -4,9 +4,7 @@ body, html {
     margin:0;
     padding:0;
 }
-
-
-/******  REVEAL CLASS ******/
+/******  REVEAL CLASSES ******/
 .reveal {
     opacity:0;
     transform: scale(0.9);
@@ -16,8 +14,6 @@ body, html {
     transform: scale(1);
     opacity:1;
 }
-
-
 
 /****** YOUR STYLE ******/
 .box {
@@ -130,8 +126,6 @@ body, html {
     background-color:green;
     color:white;
 }
-
-
 
 @media only screen and (min-width: 768px) {
     .box-1-1 {
