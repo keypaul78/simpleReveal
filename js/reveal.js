@@ -35,7 +35,7 @@
 						delay = el.dataset.delay * 1000;
 					}
 					REVEAL.revealEl(i, delay);
-                }
+                		}
 			}
 		},
 		revealEl: function(i, delay) {
@@ -52,15 +52,12 @@
 		        rect.right  <= (window.innerWidth || document.documentElement.clientWidth )
 		    );
 		},
-
 		hasClass: function(el,c) {
 			return el.className.match(new RegExp('(\\s|^)'+c+'(\\s|$)'));
 		},
-		 
 		addClass: function(el,c) {
 			if (!this.hasClass(el,c)) el.className += " "+c;
 		},
-		 
 		removeClass: function(el,c) {
 			if (hasClass(el,c)) {
 		    	var reg = new RegExp('(\\s|^)'+c+'(\\s|$)');
