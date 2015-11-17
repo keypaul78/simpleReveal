@@ -29,7 +29,7 @@
 			var i;
 			for (i = REVEAL.config.revealEl.length; i--;) {
 				var el = REVEAL.config.revealEl[i],
-					delay = 0;
+				    delay = 0;
 				if(REVEAL.isElementInViewport(el) && !REVEAL.hasClass(el,REVEAL.config.revealedClass)){
 					if(el.dataset.delay){
 						delay = el.dataset.delay * 1000;
