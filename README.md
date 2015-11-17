@@ -9,7 +9,7 @@ Just add 'reveal' class to your element and if you need a delay time just add a 
 ```
 
 ###### With Delay
-In the example 1 = 1s
+In the example 1 = 1s, element will be showed after 1s when comes in the viewport.
 ```
 <div class="reveal" data-delay="1"></div>
 ```
@@ -21,10 +21,12 @@ By default 'reveal' class switch to 'revealed' class, when element is in viewpor
 ```
 .reveal {
     opacity:0;
+    -webkit-transform: scale(0.9);
     transform: scale(0.9);
-    transition: opacity 0.5s, transform 0.5s;
+    transition: all 0.5s;
 }
 .revealed {
+    -webkit-transform: scale(1);
     transform: scale(1);
     opacity:1;
 }
