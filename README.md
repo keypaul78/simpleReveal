@@ -3,12 +3,13 @@ Simple js to reveal element in viewport, on scroll-resize-load page events
 
 Just add 'reveal' class to your element and if you need a delay time just add a 'data-dealy=1' (s) attribute to your element.
 
-SIMPLE
+###### Simple
 ```
 <div class="reveal"></div>
 ```
 
-WITH DELAY (in the example 1 = 1s)
+###### With Delay
+In the example 1 = 1s
 ```
 <div class="reveal" data-delay="1"></div>
 ```
