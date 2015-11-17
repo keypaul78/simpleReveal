@@ -1,5 +1,5 @@
 # simpleReveal
-Simple js to reveal element in viewport, on scroll-resize-load page events
+Simple js to reveal elements in viewport, on scroll-resize-load page events
 
 Just add 'reveal' class to your element and if you need a delay time just add a 'data-dealy=1' (s) attribute to your element.
 
