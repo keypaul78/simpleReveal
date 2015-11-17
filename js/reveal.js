@@ -13,6 +13,7 @@
 			window.addEventListener('scroll', REVEAL.checkReveal, false);
 			window.addEventListener('resize', REVEAL.checkReveal, false);
 		},
+		//remove and call only request ticking
 		checkReveal : function(){
 			REVEAL.config.latestKnownScrollY = window.scrollY;
 			REVEAL.requestTick();
