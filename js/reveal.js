@@ -1,5 +1,6 @@
 !function(){
 	"use strict";
+
 	var REVEAL = {
 		config : {
 			revealClass : 'reveal',
@@ -9,11 +10,11 @@
 		},
 		setup : function(){
 			REVEAL.config.revealEl = document.querySelectorAll('.' + REVEAL.config.revealClass);
+			console.log(REVEAL.config.revealEl.length);
 			window.addEventListener('load', REVEAL.checkReveal, false);
 			window.addEventListener('scroll', REVEAL.checkReveal, false);
 			window.addEventListener('resize', REVEAL.checkReveal, false);
 		},
-		//remove and call only request ticking
 		checkReveal : function(){
 			if(!REVEAL.config.ticking) {
 				requestAnimationFrame(REVEAL.updateReveal);
