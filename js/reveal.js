@@ -15,10 +15,6 @@
 		},
 		//remove and call only request ticking
 		checkReveal : function(){
-			REVEAL.config.latestKnownScrollY = window.scrollY;
-			REVEAL.requestTick();
-		},
-		requestTick : function() {
 			if(!REVEAL.config.ticking) {
 				requestAnimationFrame(REVEAL.updateReveal);
 			}
