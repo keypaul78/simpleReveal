@@ -3,6 +3,8 @@ Simple js to reveal elements in viewport, on scroll-resize-load page events
 
 Just add 'reveal' class to your element and if you need a delay time just add a 'data-dealy=1' (s) attribute to your element.
 
+SimpleReveal use requestAnimationFrame, if you need a full support add to your page a [polyfill for RAF](https://gist.github.com/paulirish/1579671).
+
 ###### Simple
 ```
 <div class="reveal"></div>
