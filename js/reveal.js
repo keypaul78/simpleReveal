@@ -10,7 +10,6 @@
 		},
 		setup : function(){
 			REVEAL.config.revealEl = document.querySelectorAll('.' + REVEAL.config.revealClass);
-			console.log(REVEAL.config.revealEl.length);
 			window.addEventListener('load', REVEAL.checkReveal, false);
 			window.addEventListener('scroll', REVEAL.checkReveal, false);
 			window.addEventListener('resize', REVEAL.checkReveal, false);
