@@ -37,4 +37,4 @@ By default 'reveal' class switch to 'revealed' class, when element is in viewpor
 
 ## DEMO
 Just scroll down
-[Launch demo]
+[Launch demo](http://www.roughdesign.it/stage/simpleReveal/)
