@@ -11,9 +11,9 @@ SimpleReveal use requestAnimationFrame, if you need a full support add to your p
 ```
 
 ###### With Delay
-In the example 1 = 1s, element will be showed after 1s when comes in the viewport.
+In the example 1000 = 1s, element will be showed after 1s when comes in the viewport.
 ```
-<div class="reveal" data-delay="1"></div>
+<div class="reveal" data-delay="1000"></div>
 ```
 
 
