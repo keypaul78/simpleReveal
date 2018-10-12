@@ -28,7 +28,7 @@
 				    delay = 0;
 				if(REVEAL.isElementInViewport(el) && !REVEAL.hasClass(el,REVEAL.config.revealedClass)){
 					if(el.getAttribute('data-delay')){
-						delay = el.getAttribute('data-delay') * 1000;
+						delay = el.getAttribute('data-delay');
 					}
 					REVEAL.revealEl(i, delay);
                 		}
